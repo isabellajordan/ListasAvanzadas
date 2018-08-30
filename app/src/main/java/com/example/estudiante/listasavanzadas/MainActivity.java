@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, noticia_click.getTitulo(), Toast.LENGTH_SHORT ).show();
 
             }
+
+
         });
 
     }
