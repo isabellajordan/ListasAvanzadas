@@ -7,6 +7,13 @@
     android:padding="10dp"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sushi"
+        />
+
     <!--Generar un campo por cada noticia-->
     <TextView
         android:id="@+id/item_titulo"
@@ -35,6 +42,7 @@
         />
 
     <Button
+        android:id="@+id/item_action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ir a la noticia"
